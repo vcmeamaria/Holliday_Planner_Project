@@ -1,5 +1,7 @@
 ﻿# Holiday Planner 🌴
 
+ **Author:** Maria, Najim & Louis
+
 Holiday Planner is a Streamlit application that recommends holiday destinations based on a user's budget, preferred temperature, trip length, and interests. It combines weather, cost, and amenity data to score and rank destinations, presenting the results through interactive charts, maps, and tables.
 
 The application is designed to run without API keys, ensuring it remains easy to reproduce, assess, and deploy on Streamlit Community Cloud.
