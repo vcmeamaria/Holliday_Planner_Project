@@ -1,0 +1,115 @@
+{
+  "_comment": "Fixed shortlist of tropical/warm destinations. Latitude/longitude drive the weather + places lookups and the map pins. All coordinates were verified against standard references (city/island centroids). The *_score fields (0-10) are editorial PLACEHOLDERS chosen by the team to represent how strong each place is for that category; a future version could replace these with real aggregated data. The `iata` field is the destination's nearest airport, used for flight-price lookups. Photo URLs are freely-usable Unsplash images; the UI falls back to a coloured placeholder if an image fails to load.",
+  "destinations": [
+    {
+      "name": "Bali",
+      "country": "Indonesia",
+      "latitude": -8.4095,
+      "longitude": 115.1889,
+      "photo_url": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80",
+      "beaches_score": 9,
+      "adventure_score": 9,
+      "nightlife_editorial_score": 8,
+      "iata": "DPS"
+    },
+    {
+      "name": "Phuket",
+      "country": "Thailand",
+      "latitude": 7.8804,
+      "longitude": 98.3923,
+      "photo_url": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?w=800&q=80",
+      "beaches_score": 9,
+      "adventure_score": 8,
+      "nightlife_editorial_score": 9,
+      "iata": "HKT"
+    },
+    {
+      "name": "Cancun",
+      "country": "Mexico",
+      "latitude": 21.1619,
+      "longitude": -86.8515,
+      "photo_url": "https://images.unsplash.com/photo-1736648432485-c82f30912ec5?w=800&q=80",
+      "beaches_score": 8,
+      "adventure_score": 7,
+      "nightlife_editorial_score": 9,
+      "iata": "CUN"
+    },
+    {
+      "name": "Costa Rica",
+      "country": "Costa Rica",
+      "latitude": 9.7711,
+      "longitude": -84.6622,
+      "photo_url": "https://images.unsplash.com/photo-1518259102261-b40117eabbc9?w=800&q=80",
+      "beaches_score": 8,
+      "adventure_score": 10,
+      "nightlife_editorial_score": 6,
+      "iata": "SJO"
+    },
+    {
+      "name": "Zanzibar",
+      "country": "Tanzania",
+      "latitude": -6.1659,
+      "longitude": 39.2026,
+      "photo_url": "https://images.unsplash.com/photo-1610631066894-62452ccb927c?w=800&q=80",
+      "beaches_score": 10,
+      "adventure_score": 7,
+      "nightlife_editorial_score": 5,
+      "iata": "ZNZ"
+    },
+    {
+      "name": "Tulum",
+      "country": "Mexico",
+      "latitude": 20.2114,
+      "longitude": -87.4654,
+      "photo_url": "https://images.unsplash.com/photo-1664205543898-829ef8baa7ad?w=800&q=80",
+      "beaches_score": 9,
+      "adventure_score": 7,
+      "nightlife_editorial_score": 7,
+      "iata": "TQO"
+    },
+    {
+      "name": "Ibiza",
+      "country": "Spain",
+      "latitude": 38.9067,
+      "longitude": 1.4206,
+      "photo_url": "https://images.unsplash.com/photo-1563784462030-fe92bbdcf857?w=800&q=80",
+      "beaches_score": 8,
+      "adventure_score": 6,
+      "nightlife_editorial_score": 10,
+      "iata": "IBZ"
+    },
+    {
+      "name": "Da Nang",
+      "country": "Vietnam",
+      "latitude": 16.0544,
+      "longitude": 108.2022,
+      "photo_url": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=800&q=80",
+      "beaches_score": 8,
+      "adventure_score": 8,
+      "nightlife_editorial_score": 6,
+      "iata": "DAD"
+    },
+    {
+      "name": "Mauritius",
+      "country": "Mauritius",
+      "latitude": -20.0064,
+      "longitude": 57.5614,
+      "photo_url": "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?w=800&q=80",
+      "beaches_score": 10,
+      "adventure_score": 8,
+      "nightlife_editorial_score": 5,
+      "iata": "MRU"
+    },
+    {
+      "name": "Goa",
+      "country": "India",
+      "latitude": 15.4909,
+      "longitude": 73.8278,
+      "photo_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80",
+      "beaches_score": 9,
+      "adventure_score": 7,
+      "nightlife_editorial_score": 8,
+      "iata": "GOI"
+    }
+  ]
+}

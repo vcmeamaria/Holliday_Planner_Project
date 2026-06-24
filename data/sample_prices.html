@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+  Indicative travel-cost page used by src/scraper.py.
+
+  Why this exists: the brief requires a real web-scraping component, but public
+  flight/hotel pages either block scrapers, sit behind logins, or change their
+  HTML constantly, which makes a marked, reproducible demo fragile. So we host a
+  small, scraping-FRIENDLY static page with the same shape a real listing page
+  would have (a table with one row per destination). The scraper uses genuine
+  requests + BeautifulSoup parsing against this structure, so swapping SOURCE_URL
+  in scraper.py for a real listing page (with the same column layout) needs no
+  code change. The prices below are indicative averages per person in GBP.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Indicative Travel Prices</title>
+</head>
+<body>
+  <h1>Indicative Travel Prices (per person, GBP)</h1>
+  <table id="prices" border="1">
+    <thead>
+      <tr>
+        <th class="destination">Destination</th>
+        <th class="flight">Avg Flight (Return)</th>
+        <th class="hotel">Avg Hotel (per night)</th>
+        <th class="daily">Daily Expenses</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="destination">Bali</td>
+        <td class="flight">650</td>
+        <td class="hotel">80</td>
+        <td class="daily">35</td>
+      </tr>
+      <tr>
+        <td class="destination">Phuket</td>
+        <td class="flight">600</td>
+        <td class="hotel">70</td>
+        <td class="daily">30</td>
+      </tr>
+      <tr>
+        <td class="destination">Cancun</td>
+        <td class="flight">750</td>
+        <td class="hotel">90</td>
+        <td class="daily">40</td>
+      </tr>
+      <tr>
+        <td class="destination">Costa Rica</td>
+        <td class="flight">620</td>
+        <td class="hotel">75</td>
+        <td class="daily">35</td>
+      </tr>
+      <tr>
+        <td class="destination">Zanzibar</td>
+        <td class="flight">700</td>
+        <td class="hotel">85</td>
+        <td class="daily">30</td>
+      </tr>
+      <tr>
+        <td class="destination">Tulum</td>
+        <td class="flight">730</td>
+        <td class="hotel">95</td>
+        <td class="daily">38</td>
+      </tr>
+      <tr>
+        <td class="destination">Ibiza</td>
+        <td class="flight">180</td>
+        <td class="hotel">110</td>
+        <td class="daily">50</td>
+      </tr>
+      <tr>
+        <td class="destination">Da Nang</td>
+        <td class="flight">620</td>
+        <td class="hotel">45</td>
+        <td class="daily">25</td>
+      </tr>
+      <tr>
+        <td class="destination">Mauritius</td>
+        <td class="flight">700</td>
+        <td class="hotel">120</td>
+        <td class="daily">45</td>
+      </tr>
+      <tr>
+        <td class="destination">Goa</td>
+        <td class="flight">550</td>
+        <td class="hotel">40</td>
+        <td class="daily">20</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
